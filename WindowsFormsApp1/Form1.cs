@@ -16,5 +16,17 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("버튼 클릭");
+            button1.Text = "눌렸습니다.";
+            label1.Text = "수업 끝!!";
+        }
     }
 }
